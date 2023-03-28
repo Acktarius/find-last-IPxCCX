@@ -1,5 +1,7 @@
 #!/bin/bash
-#list new ip plug in the last 2minutes
+#This file is subject to BSD 3-Clause License
+#Copyright (c) 2023, Acktarius
+#list new ip plugged in after one minute
 #get my Ip to know the local network scheme
 IPADD=$(ip a | grep -w 'inet' | grep -v 127 | cut -d "/" -f 1 | tr -d " " | cut -c 5-)
 #scanning
