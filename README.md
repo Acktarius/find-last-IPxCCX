@@ -7,7 +7,7 @@ download **find-last-IPxCCX.sh**,
 
 then 
 
-`chmod 755 find-last-IPxCCX.sh`
+`sudo chmod 755 find-last-IPxCCX.sh`
 
 ideally would be place in the **/opt/conceal-toolbox** folder
 
