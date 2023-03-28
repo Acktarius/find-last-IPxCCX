@@ -39,7 +39,7 @@ for IPP in "${IPRESULT[@]}"; do
 	IPRESULTS+="$IPP"
 	fi
 done
-echo -e "\t${#IPRESULTS[*]} of the new IP detected can listen Conceal-Assistant : \n ${IPRESULTS[*]} \n"
+echo -e "\t${#IPRESULTS[*]} of the new IP detected have Conceal-Assistant port open : \n ${IPRESULTS[*]} \n"
 echo -ne " ---            Conclusion :                 ---"
 case ${#IPRESULT[@]} in
 	"0") echo -ne "\n ---                      no new IP detected ---\n";;
